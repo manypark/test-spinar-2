@@ -1,0 +1,25 @@
+<mat-list>
+    <div mat-subheader> <small> MONITOREO </small> </div>
+    <mat-list-item *ngFor="let item of list"> 
+        <mat-icon mat-list-icon> {{ item.icon }} </mat-icon>
+        <div mat-line>
+            <small> {{ item.text }} </small>
+        </div>
+    </mat-list-item>
+
+    <div mat-subheader> <small> ADMINISTRACION </small> </div>
+    <mat-list-item *ngFor="let item of list2"> 
+        <mat-icon mat-list-icon> {{ item.icon }} </mat-icon>
+        <div mat-line>
+            <small> {{ item.text }} </small>
+        </div>
+    </mat-list-item>
+
+    <div mat-subheader> <small> SYSTEMA </small> </div>
+    <mat-list-item *ngFor="let item of list3"> 
+        <mat-icon mat-list-icon> {{ item.icon }} </mat-icon>
+        <div mat-line>
+            <small> {{ item.text }} </small>
+        </div>
+    </mat-list-item>
+</mat-list>

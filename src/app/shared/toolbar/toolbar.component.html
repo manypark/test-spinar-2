@@ -1,0 +1,33 @@
+<mat-toolbar>
+
+    <span>
+        <img src="assets/logo-grupo-morza.png" alt="">
+    </span>
+
+    <mat-icon class="mat-icon" [matMenuTriggerFor]="menu" >account_circle</mat-icon>
+
+    <mat-menu #menu="matMenu"  xPosition="before">
+        <ng-template [matMenuContent]="matMenu">
+            <ng-container>
+                <div class="menuAccount">
+                    <div class="matIconAccount">
+                        <mat-icon class="matIcon2">account_circle</mat-icon>
+                    </div>
+                    <div class="menuAccountPerson">
+                        <span>
+                            <h4> Vistor Rangel Lara</h4>
+                            <p> Administrador </p>
+                        </span>
+
+                    </div>
+                </div>
+
+                <mat-divider></mat-divider>
+                
+                <h3>Cerrar sesión</h3>
+            </ng-container>
+        </ng-template>
+    </mat-menu>
+
+</mat-toolbar>
+  

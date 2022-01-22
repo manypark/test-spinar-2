@@ -1,0 +1,27 @@
+<div class="line"></div>
+<mat-card class="mat-elevation-z3">
+    <div class="div1">
+        <mat-icon matBadge="1" matBadgeColor="primary" aria-hidden="false" aria-label="Example home icon">
+            notifications_none
+        </mat-icon>
+        <h3> <strong> Registro de actividad </strong> </h3>
+    </div>
+</mat-card>
+
+<br>
+<cdk-virtual-scroll-viewport appendOnly itemSize="50" class="example-viewport">
+    <div *cdkVirtualFor="let item of list">
+        <div class="activitys">
+            <img [src]="item.pic" alt="">
+            <div class="details">
+                <h4> 
+                    <strong> {{ item.title }} </strong>
+                    <br> 
+                    <span class="desc"> {{ item.desc }} </span>
+                    <br> 
+                    <span class="desc"> {{ item.date }} </span>
+                </h4>
+            </div>
+        </div>
+    </div>
+</cdk-virtual-scroll-viewport>

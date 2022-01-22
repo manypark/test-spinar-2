@@ -1,0 +1,45 @@
+.mat-icon {
+    cursor: pointer;
+    color: #C9C9C9;
+    font-size: 45px;
+    margin: -10px 145px 0px auto !important;
+}
+
+h4 {
+    color: #433E3E;
+}
+h3 {
+    color: #999999;
+    margin: 6px 0px 0px 26px;
+}
+p {
+    color: #999999;
+}
+
+.matIcon2 {
+    color: #C9C9C9;
+    font-size: 85px;
+}
+
+.matIconAccount {
+    width: 120px;
+    margin: 0px 0px 0px 20px;
+}
+
+.menuAccountPerson {
+    width: 200px;
+    margin: 18px 10px 10px -15px;
+}
+
+.menuAccount {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    margin: 12px 0px 0px 100px;
+}
+
+mat-toolbar {
+    background-color: #fff;
+}

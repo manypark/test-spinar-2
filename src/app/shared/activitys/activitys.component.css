@@ -1,0 +1,47 @@
+.div1 {
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+mat-icon {
+    margin: 0px 50px 0px 0px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0px 50px 0px 0px;
+}
+
+h4 {
+    font-size: 13px;
+}
+
+.line {
+    height: 8px;
+    background-color: #5F6DF9;
+}
+
+.example-viewport {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.activitys {
+    display: flex;
+    flex-direction: row;
+}
+
+.details {
+    margin: 0px 0px 0px 20px;
+}
+
+.desc {
+    color: #838383;
+}
