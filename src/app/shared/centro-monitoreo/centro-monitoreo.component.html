@@ -1,0 +1,58 @@
+<h2> <strong> Centro de monitoreo </strong> </h2>
+
+<mat-card class="example-card">
+
+    <mat-card-title>
+        <div class="title">
+            <span> Cámara 2 </span>
+            <small> Área de carga - CEDIS Guadalajara Norte </small>
+        </div>
+    </mat-card-title>
+
+    <img src="assets/img/image1.jpeg" alt="">
+
+    <mat-card-content>
+        <button mat-button class="button">
+            <div class="iconButton">
+                <mat-icon aria-hidden="false">
+                    sensors
+                </mat-icon>
+                <span> En vivo </span>
+            </div>
+        </button>
+  
+        <button mat-button class="button">
+          <div class="iconButton">
+              <mat-icon aria-hidden="false">
+                  settings_backup_restore
+              </mat-icon>
+              <span> Historial </span>
+          </div>
+        </button>
+  
+        <div class="timeDate">
+            <mat-chip-list>
+                <mat-icon class="schedule"> schedule </mat-icon>
+                <mat-chip> {{ date.substring(0, 2) }} </mat-chip>
+                :
+                <mat-chip> {{ date.substring(3, 5) }} </mat-chip>
+                :
+                <mat-chip> {{ date.substring(6, 8) }} </mat-chip>
+            </mat-chip-list>
+            <button mat-button class="buttonDate"  (click)="picker.open()">
+                <mat-icon class="schedule iconCalendar"> calendar_today </mat-icon> 
+                Hoy
+            </button>
+        </div>
+        <input matInput [matDatepicker]="picker" hidden="true">
+        <mat-datepicker #picker></mat-datepicker>
+
+        <div class="example-boundary">
+            <div class="example-box" cdkDragBoundary=".example-boundary" cdkDragLockAxis="x" cdkDrag>
+                Drag
+            </div>
+        </div>
+
+    </mat-card-content>
+
+</mat-card>

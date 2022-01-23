@@ -1,17 +1,39 @@
 <app-toolbar></app-toolbar>
 
-<mat-grid-list cols="3" rowHeight="95%">
+<mat-grid-list cols="6" rowHeight="90%">
     
-    <mat-grid-tile>
+    <mat-grid-tile colspan="1">
         <app-sidebar></app-sidebar>
     </mat-grid-tile>
 
-    <mat-grid-tile>
-        <!-- home, linea del tiempo -->
-        <div class="home"></div>
+    <mat-grid-tile colspan="3">
+        <app-centro-monitoreo class="home"></app-centro-monitoreo>
     </mat-grid-tile>
 
-    <mat-grid-tile>
+    <mat-grid-tile colspan="2">
         <app-activitys></app-activitys>
     </mat-grid-tile>
+
 </mat-grid-list>
+
+<!-- 
+<mat-grid-list cols="4" rowHeight="100px">
+    <mat-grid-tile
+        [colspan]="tiles[0].cols"
+        [rowspan]="tiles[0].rows"
+        [style.background]="tiles[0].color">
+        {{ tiles[0].text }}
+    </mat-grid-tile>
+    <mat-grid-tile
+        [colspan]="tiles[1].cols"
+        [rowspan]="tiles[1].rows"
+        [style.background]="tiles[1].color">
+        {{ tiles[1].text }}
+    </mat-grid-tile>
+    <mat-grid-tile
+        [colspan]="tiles[2].cols"
+        [rowspan]="tiles[2].rows"
+        [style.background]="tiles[2].color">
+        {{ tiles[2].text }}
+    </mat-grid-tile>
+  </mat-grid-list> -->

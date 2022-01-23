@@ -1,0 +1,108 @@
+h2 {
+    margin: 30px 0px 0px 30px;
+    font-size: 28px;
+}
+
+.example-card {
+    margin: 30px 0px 0px 30px;
+    max-width: 90%;
+}
+
+small {
+    font-size: 14px;
+    color: #838383;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    height: 500px;
+    width: 100%;
+}
+
+.button {
+    height: 80px;
+    width: 80px;
+    border: 1px #838383 solid;
+    border-radius: 0px;
+    border-style: none solid none none;
+    margin: 0px 0px 0px 0px !important;
+}
+
+mat-icon {
+    margin: auto;
+    color: #838383;
+    font-size: 30px;
+}
+
+.iconButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+span {
+    color: #838383;
+}
+
+.schedule {
+    margin: -5px 10px 0px 15px !important;
+}
+
+mat-card-content {
+    display: flex;
+    flex-direction: row;   
+}
+
+mat-chip-list {
+    margin: 10px 0px 0px 0px !important;
+}
+
+.timeDate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttonDate {
+    margin: 10px 0px 0px 20px !important;
+    border: 2px #838383 solid;
+}
+
+.iconCalendar {
+    color: #838383;
+    font-size: 24px;   
+}
+
+.example-box {
+    width: 80px;
+    height: 90px;
+    border: solid 1px #ccc;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: move;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    margin-right: 25px;
+    position: relative;
+    z-index: 1;
+    transition: box-shadow 200ms cubic-bezier(0, 0, 0.2, 1);
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+                0 2px 2px 0 rgba(0, 0, 0, 0.14),
+                0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.example-boundary {
+    margin: 0px 0px 0px 20px;
+    width: 270px;
+    height: 90px;
+    max-width: 100%;
+    border: dotted #ccc 2px;
+}

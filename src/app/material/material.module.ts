@@ -11,6 +11,10 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatBadgeModule } from '@angular/material/badge';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { DragDropModule } from '@angular/cdk/drag-drop';
 
 @NgModule({
   exports: [
@@ -24,6 +28,10 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     MatCardModule,
     MatBadgeModule,
     ScrollingModule,
+    MatChipsModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    DragDropModule,
   ]
 })
 
