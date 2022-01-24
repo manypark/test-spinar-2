@@ -101,7 +101,7 @@ mat-chip-list {
 
 .example-boundary {
     margin: 0px 0px 0px 20px;
-    width: 270px;
+    width: 55%;
     height: 90px;
     max-width: 100%;
     border: dotted #ccc 2px;
